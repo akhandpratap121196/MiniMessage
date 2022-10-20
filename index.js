@@ -9,7 +9,7 @@ app.use(express.static('public'))
 app.use(bodyParser.urlencoded({
     extended:true
 }))
-
+///this is mongo url
 mongoose.connect('mongodb+srv://Akhand:Akhanda%4011@cluster0.fn1fy.mongodb.net/Message_Board',{
     useNewUrlParser: true,
     useUnifiedTopology: true
